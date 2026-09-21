@@ -480,4 +480,4 @@ else:
         st.dataframe(table, width='stretch', hide_index=True)
 
 st.divider()
-st.caption("Data: transactional-sample.csv · Companion dashboard to the REPORT case-study deliverable.")
+st.caption("Data: transactional-sample.csv")

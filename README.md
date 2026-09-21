@@ -1,6 +1,6 @@
-# 🛡️ Cloudwalk Case — Detecção de Fraude e Chargeback em Transações
+# 🛡️ Detecção de Fraude e Chargeback em Transações
 
-Case técnico de análise de risco transacional para a Cloudwalk: a partir de uma amostra de transações de pagamento, o projeto identifica padrões de fraude e chargeback, propõe uma política de decisão em camadas e treina um modelo de machine learning para pontuar o risco de cada transação em tempo real.
+Projeto de análise de risco transacional: a partir de uma amostra de transações de pagamento, identifica padrões de fraude e chargeback, propõe uma política de decisão em camadas e treina um modelo de machine learning para pontuar o risco de cada transação em tempo real.
 
 O projeto está estruturado em duas camadas de detecção, que se complementam:
 
@@ -14,7 +14,7 @@ Dado o histórico de uma transação (valor, horário, usuário, cartão, dispos
 ## 🏗️ Estrutura do repositório
 
 ```
-Cloudwalk-Case/
+fraud-detection/
 ├── exploratory_analyzes.ipynb   # Camada 1: EDA, análise de padrões e regras de negócio
 ├── fraud_dashboard.py           # Dashboard interativo em Streamlit (Camadas 1 e 2)
 ├── train_risk_model.py          # Camada 2: treino do modelo de risco + política de tiers
