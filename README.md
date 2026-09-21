@@ -14,7 +14,7 @@ Dado o histórico de uma transação (valor, horário, usuário, cartão, dispos
 ## 🏗️ Estrutura do repositório
 
 ```
-fraud-detection/
+chargeback-risk-model/
 ├── exploratory_analyzes.ipynb   # Camada 1: EDA, análise de padrões e regras de negócio
 ├── fraud_dashboard.py           # Dashboard interativo em Streamlit (Camadas 1 e 2)
 ├── train_risk_model.py          # Camada 2: treino do modelo de risco + política de tiers
